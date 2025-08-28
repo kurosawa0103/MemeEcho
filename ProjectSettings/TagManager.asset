@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Box
+  - Mgr
+  - Canvas
+  - Cloud
+  - Character
+  - Event
+  - Island
+  - GM
+  - BoxBorder
+  - BackGround
+  - LandParent
+  - DialogBox
+  - SailorOb
+  - Wave
+  - NightParticle
+  - BubbleBox
+  - Root
+  - SmallBox
+  - SubRoot
+  - smoke
+  - Heart
+  - music
+  - MaskRoot
+  - puzzle
+  - SpItem
+  - Leaf
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - LayerMask
+  - Obstructors
+  - Reflections
+  - WaterPostProcessing
+  - Box
+  - ShadowObject
+  - Leaf
+  - 
+  - NoUI
+  - 
+  - 
+  - Cloud
+  - Star
+  - AnotherWorld
+  - paintableLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Star
+    uniqueID: 2270233521
+    locked: 0
+  - name: back
+    uniqueID: 2764425415
+    locked: 0
+  - name: Water
+    uniqueID: 3418625815
+    locked: 0
+  - name: box
+    uniqueID: 1395415819
+    locked: 0
+  - name: waveB
+    uniqueID: 245586197
+    locked: 0
+  - name: LiziB
+    uniqueID: 3468801499
+    locked: 0
+  - name: NPC
+    uniqueID: 4062250759
+    locked: 0
+  - name: Player
+    uniqueID: 3069559717
+    locked: 0
+  - name: mid
+    uniqueID: 1398659719
+    locked: 0
+  - name: waveF
+    uniqueID: 1774731189
+    locked: 0
+  - name: LiziF
+    uniqueID: 3742149697
+    locked: 0
+  - name: home
+    uniqueID: 2139597881
+    locked: 0
+  - name: homeGirl
+    uniqueID: 2523880289
+    locked: 0
+  - name: Front
+    uniqueID: 310495959
+    locked: 0
+  - name: UI
+    uniqueID: 1308396929
+    locked: 0
+  - name: Final
+    uniqueID: 130771299
+    locked: 0
+  - name: FinalWave
+    uniqueID: 796152397
+    locked: 0
+  - name: Out
+    uniqueID: 3118726201
+    locked: 0
+  - name: BothWorld
+    uniqueID: 3262123855
+    locked: 0
+  - name: AnotherWorld
+    uniqueID: 428939171
+    locked: 0
+  - name: leaves
+    uniqueID: 2912283131
+    locked: 0
