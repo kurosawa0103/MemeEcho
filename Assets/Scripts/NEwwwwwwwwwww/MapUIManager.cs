@@ -22,7 +22,9 @@ public class MapUIManager : MonoBehaviour
 
 
     public float typewriterSpeed = 0.05f; // 打字机速度，每字间隔秒数
-
+    private bool skipTypewriter = false; // 是否跳过打字机
+    private bool isTyping = false;
+    private float currentSpeed;
     private void Awake()
     {
         ShowMapInfo(defaultMapInfo);
@@ -35,7 +37,14 @@ public class MapUIManager : MonoBehaviour
         }
     
     }
-
+    private void Update()
+    {
+        if (isTyping && Input.GetMouseButtonDown(0))
+        {
+            // 点击加速，速度翻倍或自定义倍数
+            currentSpeed = typewriterSpeed * 0.1f; // 例如原速度10倍
+        }
+    }
     public void ShowMapInfo(MapInfo mapInfo)
     {
         if (mapInfo == null)
@@ -63,14 +72,18 @@ public class MapUIManager : MonoBehaviour
             yield break;
 
         mapDescriptionText.text = "";
+        isTyping = true;
+        currentSpeed = typewriterSpeed;
 
         foreach (char c in fullText)
         {
             mapDescriptionText.text += c;
-            yield return new WaitForSeconds(typewriterSpeed);
+            yield return new WaitForSeconds(currentSpeed);
         }
 
-        // 打字机结束，显示按钮和按钮文字
+        isTyping = false;
+
+        // 显示按钮和文字
         if (currentMapInfo != null && buttonParent != null)
         {
             if (string.IsNullOrWhiteSpace(currentMapInfo.buttonText))
