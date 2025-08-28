@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d09678e21d96af43bd7596ba29ce4d1, type: 3}
+  m_Name: "room_\u6E38\u620F\u623F\u95F4"
+  m_EditorClassIdentifier: 
+  mapName: "\u8D77\u59CB\u4E4B\u5730"
+  mapDescription: "\u8FF7\u56E0\u4E0E\u81EA\u6211\u4EA4\u7EC7\u7684\u6F2B\u6E38\r\n\u5373\u5C06\u8FCE\u6765\u5C3E\u58F0\r\n\r\n\u5728\u788E\u7247\u5316\u7684\u8352\u91CE\u91CC\r\n\u4F60\u5BFB\u627E\u5404\u5904\u7684\u8FF7\u56E0\r\n\u4E0E\u4E0D\u540C\u7684\u8FF7\u56E0\u76F8\u9047\r\n\r\n\u6700\u7EC8\uFF0C\u4F60\u62B5\u8FBE\u4E86\u90A3\u4E2A\u590F\u65E5\u5348\u540E\r\n\u4E5F\u662F\u4F60\u7684\u8FF7\u56E0\u8BDE\u751F\u7684\u8D77\u70B9"
+  buttonText: "\u89E6\u78B0\u56DE\u5FC6"
+  sceneName: "Room-\u6E38\u620F\u623F\u95F4"
+  memeMapName: "\u8FF7\u56E0\u951A\u70B9\uFF1A\u8D77\u59CB\u4E4B\u5730"

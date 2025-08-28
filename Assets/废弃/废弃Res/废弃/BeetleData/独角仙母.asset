@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0889d584d24fdd941ae1ef48bc6dd5d5, type: 3}
+  m_Name: "\u72EC\u89D2\u4ED9\u6BCD"
+  m_EditorClassIdentifier: 
+  beetleWormName: "\u72EC\u89D2\u4ED9\u5E7C\u866B"
+  insectGender: 0
+  insectType: 0
+  beetleAddress: "GameData/BeetleData/\u72EC\u89D2\u4ED9\u6BCD"
+  beetlelife: 11000
+  beetleMaxHungry: 100
+  hungryReduiceSpeed: 0.045
+  wormPrice: 500
+  beetlePrice: 700
+  beetlePrefab: {fileID: 5643607195914460496, guid: c03b666332d611d44b643e09fad3b0e1, type: 3}
+  hungerLevelInfos:
+  - hungerLevel: 0
+    hungerValue: -1
+  - hungerLevel: 1
+    hungerValue: 30
+  - hungerLevel: 2
+    hungerValue: 80
+  ageGrowTimePairs:
+  - age: 1
+    growSpeed: 0.012
+    growTime: 600
+    normalWeight: 6
+    wormImage: {fileID: 21300000, guid: b0a227020e42b934ea8affbba0789ea9, type: 3}
+    canGrow: 1
+    dirtyCoefficient: 0.0007
+    eatSpeed: 1
+    description: "\u521A\u521A\u5B75\u5316\u51FA\u6765\u7684\u5E7C\u866B\u4F53\u578B\u975E\u5E38\u5A07\u5C0F\uFF0C\u5B83\u57CB\u5165\u6728\u5C51\u4E2D\uFF0C\u8EB2\u907F\u4E86\u8D77\u6765\u3002"
+  - age: 2
+    growSpeed: 0.022
+    growTime: 600
+    normalWeight: 18
+    wormImage: {fileID: 21300000, guid: 6811d1a5675cda24383dc4f4dd309c42, type: 3}
+    canGrow: 1
+    dirtyCoefficient: 0.0008
+    eatSpeed: 1
+    description: "\u9010\u6E10\u6210\u957F\u8D77\u6765\u7684\u5E7C\u866B\uFF0C\u6BD4\u8D77\u4E4B\u524D\u7684\u4F53\u578B\u5DF2\u7ECF\u5927\u4E86\u4E0D\u5C11\uFF0C\u5E7C\u866B\u8F7B\u8F7B\u5730\u5728\u9972\u517B\u76D2\u91CC\u632A\u52A8\u8EAB\u8EAF\uFF0C\u4E0D\u591A\u4E00\u4F1A\u5B83\u4FBF\u5B89\u9759\u5730\u7761\u7740\u4E86"
+  - age: 3
+    growSpeed: 0.013
+    growTime: 900
+    normalWeight: 28
+    wormImage: {fileID: 21300000, guid: f5162b65bf657ce4aa18d08c1ad5c928, type: 3}
+    canGrow: 1
+    dirtyCoefficient: 0.0012
+    eatSpeed: 1
+    description: "\u4F53\u578B\u6BD4\u8D77\u5148\u524D\u5DF2\u7ECF\u5927\u4E86\u8BB8\u591A\uFF0C\u5C0F\u5C0F\u7684\u9972\u517B\u76D2\u5DF2\u7ECF\u5BB9\u7EB3\u4E0D\u4E0B\u4ED6\u7684\u8EAB\u8EAF\u4E86\uFF0C\u5B83\u4E3A\u5316\u86F9\u79EF\u84C4\u7740\u517B\u5206"
+  - age: 4
+    growSpeed: 0
+    growTime: 300
+    normalWeight: 36
+    wormImage: {fileID: 21300000, guid: 68c6f5c2d31b5c043a1bf3bceeda1c53, type: 3}
+    canGrow: 1
+    dirtyCoefficient: 0
+    eatSpeed: 0
+    description: "\u5316\u86F9\u540E\u7684\u5E7C\u866B\u4E0D\u518D\u8FDB\u98DF\uFF0C\u6B64\u523B\u5728\u86F9\u7684\u5185\u90E8\u6B63\u5728\u53D1\u751F\u5947\u5999\u7684\u53CD\u5E94\uFF0C\u4E3A\u4E86\u5373\u5C06\u5230\u6765\u7684\u65B0\u751F"
+  - age: 5
+    growSpeed: 0
+    growTime: 0
+    normalWeight: 36
+    wormImage: {fileID: 21300000, guid: 68c6f5c2d31b5c043a1bf3bceeda1c53, type: 3}
+    canGrow: 0
+    dirtyCoefficient: 0
+    eatSpeed: 0
+    description: "\u5316\u86F9\u540E\u7684\u5E7C\u866B\u4E0D\u518D\u8FDB\u98DF\uFF0C\u6B64\u523B\u5728\u86F9\u7684\u5185\u90E8\u6B63\u5728\u53D1\u751F\u5947\u5999\u7684\u53CD\u5E94\uFF0C\u4E3A\u4E86\u5373\u5C06\u5230\u6765\u7684\u65B0\u751F"
+  beetleAdultPrefabs:
+  - id: 1
+    beetleName: "\u8910\u8272\u72EC\u89D2\u4ED9"
+    prefab: {fileID: 5643607195914460496, guid: f8f2001e1b6245d46ad34fe135ca12af, type: 3}
+    weight: 30
+    beetle_Adult_Image: {fileID: 21300000, guid: aa0a75509eb926c499851f0e975a3acc, type: 3}
+    rarity: N
+    rarityPic: {fileID: 21300000, guid: 42eec1ebcc1e8624cab293594270d17e, type: 3}
+    beetleAI: {fileID: 0}
+    availablePersonalities:
+    - {fileID: 11400000, guid: 98fcdf5d364938e4c8fd760f20e3de3f, type: 2}
+    - {fileID: 11400000, guid: 2609035ee53ff734dbe0c73bb8ed0376, type: 2}
+    - {fileID: 11400000, guid: 523e9d7199ac67c4b903bb27bdfc3582, type: 2}
+    beetleDesc:
+    - "\u72EC\u89D2\u4ED9\u6BCD\u866B\u6CA1\u6709\u7284\u89D2\uFF0C\u76F8\u6BD4\u8D77\u516C\u866B\uFF0C\u5B83\u4EEC\u6709\u7740\u5149\u6ED1\u5706\u6DA6\u7684\u8111\u888B"
+    - "\u72EC\u89D2\u4ED9\u6BCD\u866B\u7684\u751F\u957F\u5468\u671F\u66F4\u77ED\uFF0C\u4F53\u578B\u4E5F\u6BD4\u516C\u866B\u66F4\u5C0F\uFF0C\u4F46\u662F\u529B\u6C14\u53EF\u4E0D\u5C0F"
+    - "\u6BCF\u53EA\u72EC\u89D2\u4ED9\u90FD\u559C\u6B22\u751C\u751C\u7684\uFF0C\u9971\u542B\u7CD6\u5206\u7684\u6C34\u679C\uFF0C\u800C\u9972\u517B\u5458\u4EEC\u5C06\u6C34\u679C\u5236\u6210\u4E86\u679C\u51BB\u4F9B\u5B83\u4EEC\u98DF\u7528"
+    - "\u72EC\u89D2\u4ED9\u5C55\u5F00\u9798\u7FC5\uFF0C\u98DE\u7FD4\u5728\u5929\u7A7A\uFF0C\u90A3\u662F\u5F88\u591A\u4EBA\u7AE5\u5E74\u7684\u68A6\u60F3"
+  - id: 2
+    beetleName: "\u8D64\u7EA2\u72EC\u89D2\u4ED9"
+    prefab: {fileID: 5643607195914460496, guid: a84b6040f33c1654dab2491f0cb22755, type: 3}
+    weight: 30
+    beetle_Adult_Image: {fileID: 21300000, guid: ad1d898143e889944be8d6c5638800b1, type: 3}
+    rarity: R
+    rarityPic: {fileID: 21300000, guid: 751420c288a39814e9b788d6483273cd, type: 3}
+    beetleAI: {fileID: 0}
+    availablePersonalities:
+    - {fileID: 11400000, guid: 98fcdf5d364938e4c8fd760f20e3de3f, type: 2}
+    - {fileID: 11400000, guid: 61d54030b18bfb043930a74d53482d0c, type: 2}
+    - {fileID: 11400000, guid: 523e9d7199ac67c4b903bb27bdfc3582, type: 2}
+    beetleDesc:
+    - "\u72EC\u89D2\u4ED9\u6BCD\u866B\u6CA1\u6709\u7284\u89D2\uFF0C\u76F8\u6BD4\u8D77\u516C\u866B\uFF0C\u5B83\u4EEC\u6709\u7740\u5149\u6ED1\u5706\u6DA6\u7684\u8111\u888B"
+    - "\u72EC\u89D2\u4ED9\u6BCD\u866B\u7684\u751F\u957F\u5468\u671F\u66F4\u77ED\uFF0C\u4F53\u578B\u4E5F\u6BD4\u516C\u866B\u66F4\u5C0F\uFF0C\u4F46\u662F\u529B\u6C14\u53EF\u4E0D\u5C0F"
+    - "\u6BCF\u53EA\u72EC\u89D2\u4ED9\u90FD\u559C\u6B22\u751C\u751C\u7684\uFF0C\u9971\u542B\u7CD6\u5206\u7684\u6C34\u679C\uFF0C\u800C\u9972\u517B\u5458\u4EEC\u5C06\u6C34\u679C\u5236\u6210\u4E86\u679C\u51BB\u4F9B\u5B83\u4EEC\u98DF\u7528"
+    - "\u72EC\u89D2\u4ED9\u5C55\u5F00\u9798\u7FC5\uFF0C\u98DE\u7FD4\u5728\u5929\u7A7A\uFF0C\u90A3\u662F\u5F88\u591A\u4EBA\u7AE5\u5E74\u7684\u68A6\u60F3"
+  - id: 3
+    beetleName: "\u6F06\u9ED1\u72EC\u89D2\u4ED9"
+    prefab: {fileID: 5643607195914460496, guid: 15dcf8b645cc73a45aa567f1a1813968, type: 3}
+    weight: 20
+    beetle_Adult_Image: {fileID: 21300000, guid: 76b0a6e241617fb479f6f813f3785552, type: 3}
+    rarity: R
+    rarityPic: {fileID: 21300000, guid: 751420c288a39814e9b788d6483273cd, type: 3}
+    beetleAI: {fileID: 0}
+    availablePersonalities:
+    - {fileID: 11400000, guid: 61d54030b18bfb043930a74d53482d0c, type: 2}
+    - {fileID: 11400000, guid: 2609035ee53ff734dbe0c73bb8ed0376, type: 2}
+    - {fileID: 11400000, guid: 98fcdf5d364938e4c8fd760f20e3de3f, type: 2}
+    - {fileID: 11400000, guid: 523e9d7199ac67c4b903bb27bdfc3582, type: 2}
+    beetleDesc:
+    - "\u72EC\u89D2\u4ED9\u6BCD\u866B\u6CA1\u6709\u7284\u89D2\uFF0C\u76F8\u6BD4\u8D77\u516C\u866B\uFF0C\u5B83\u4EEC\u6709\u7740\u5149\u6ED1\u5706\u6DA6\u7684\u8111\u888B"
+    - "\u72EC\u89D2\u4ED9\u6BCD\u866B\u7684\u751F\u957F\u5468\u671F\u66F4\u77ED\uFF0C\u4F53\u578B\u4E5F\u6BD4\u516C\u866B\u66F4\u5C0F\uFF0C\u4F46\u662F\u529B\u6C14\u53EF\u4E0D\u5C0F"
+    - "\u6BCF\u53EA\u72EC\u89D2\u4ED9\u90FD\u559C\u6B22\u751C\u751C\u7684\uFF0C\u9971\u542B\u7CD6\u5206\u7684\u6C34\u679C\uFF0C\u800C\u9972\u517B\u5458\u4EEC\u5C06\u6C34\u679C\u5236\u6210\u4E86\u679C\u51BB\u4F9B\u5B83\u4EEC\u98DF\u7528"
+    - "\u72EC\u89D2\u4ED9\u5C55\u5F00\u9798\u7FC5\uFF0C\u98DE\u7FD4\u5728\u5929\u7A7A\uFF0C\u90A3\u662F\u5F88\u591A\u4EBA\u7AE5\u5E74\u7684\u68A6\u60F3"
+  - id: 4
+    beetleName: "\u76AE\u5361\u72EC\u89D2\u4ED9"
+    prefab: {fileID: 5643607195914460496, guid: a2c13b7a06fe64b45a8427fdf962785c, type: 3}
+    weight: 10
+    beetle_Adult_Image: {fileID: 21300000, guid: 39fd1fca14fc5ca46a242109eb27f629, type: 3}
+    rarity: SR
+    rarityPic: {fileID: 21300000, guid: c3301f6d6ca53f64d84e82c73150216c, type: 3}
+    beetleAI: {fileID: 0}
+    availablePersonalities:
+    - {fileID: 11400000, guid: 61d54030b18bfb043930a74d53482d0c, type: 2}
+    - {fileID: 11400000, guid: 98fcdf5d364938e4c8fd760f20e3de3f, type: 2}
+    - {fileID: 11400000, guid: 523e9d7199ac67c4b903bb27bdfc3582, type: 2}
+    - {fileID: 11400000, guid: 2609035ee53ff734dbe0c73bb8ed0376, type: 2}
+    beetleDesc:
+    - "\u72EC\u89D2\u4ED9\u6BCD\u866B\u6CA1\u6709\u7284\u89D2\uFF0C\u76F8\u6BD4\u8D77\u516C\u866B\uFF0C\u5B83\u4EEC\u6709\u7740\u5149\u6ED1\u5706\u6DA6\u7684\u8111\u888B"
+    - "\u72EC\u89D2\u4ED9\u6BCD\u866B\u7684\u751F\u957F\u5468\u671F\u66F4\u77ED\uFF0C\u4F53\u578B\u4E5F\u6BD4\u516C\u866B\u66F4\u5C0F\uFF0C\u4F46\u662F\u529B\u6C14\u53EF\u4E0D\u5C0F"
+    - "\u6BCF\u53EA\u72EC\u89D2\u4ED9\u90FD\u559C\u6B22\u751C\u751C\u7684\uFF0C\u9971\u542B\u7CD6\u5206\u7684\u6C34\u679C\uFF0C\u800C\u9972\u517B\u5458\u4EEC\u5C06\u6C34\u679C\u5236\u6210\u4E86\u679C\u51BB\u4F9B\u5B83\u4EEC\u98DF\u7528"
+    - "\u72EC\u89D2\u4ED9\u5C55\u5F00\u9798\u7FC5\uFF0C\u98DE\u7FD4\u5728\u5929\u7A7A\uFF0C\u90A3\u662F\u5F88\u591A\u4EBA\u7AE5\u5E74\u7684\u68A6\u60F3"

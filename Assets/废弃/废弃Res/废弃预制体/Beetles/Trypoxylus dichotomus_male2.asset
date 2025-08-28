@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a4d2589f48de448b0bd7557501d2f2, type: 3}
+  m_Name: Trypoxylus dichotomus_male2
+  m_EditorClassIdentifier: 
+  minMoveSpeed: 0.8
+  maxMoveSpeed: 1.5
+  minMoveDuration: 2
+  maxMoveDuration: 6
+  minWaitDuration: 2
+  maxWaitDuration: 6
+  minHungerMoveSpeed: 0.5
+  maxHungerMoveSpeed: 1
+  minHungerMoveDuration: 1
+  maxHungerMoveDuration: 3
+  minHungerWaitDuration: 3
+  maxHungerWaitDuration: 8
+  climbSpeed: 0.8
+  minClimbDuration: 3
+  maxClimbDuration: 8
+  hungryClimbSpeed: 0.6
+  minHungryClimbDuration: 2
+  maxHungryClimbDuration: 5
+  ceilingSpeed: 0.8
+  minCeilingDuration: 3
+  maxCeilingDuration: 6
+  hungryCeilingSpeed: 0.6
+  minHungryCeilingDuration: 1
+  maxHungryCeilingDuration: 5
+  flySpeed: 4
+  flyHeight: 4.5
+  flyDuration: 10
+  hungryFlySpeed: 3
+  hungryFlyHeight: 3
+  hungryFlyDuration: 6
+  minSleepDuration: 25
+  maxSleepDuration: 65
+  normalBehaviorTree: {fileID: 11400000, guid: 0172bada8da59c047a759012bab5686f, type: 2}
+  hungryBehaviorTree: {fileID: 11400000, guid: 1773701132248f94baf63a8fc25668ec, type: 2}
+  musicBehaviorTree: {fileID: 11400000, guid: 839c9e8e20c990944832a2a94a04eb51, type: 2}
+  lazyBehaviorTree: {fileID: 11400000, guid: ead4b3c46ef17284ea119f2a4a71d080, type: 2}
+  jizaoBehaviorTree: {fileID: 11400000, guid: 8b80facb0d36afe4dbc7129900aacec5, type: 2}
+  huoliBehaviorTree: {fileID: 11400000, guid: 573b2c555aee87745beba6b578f303a6, type: 2}

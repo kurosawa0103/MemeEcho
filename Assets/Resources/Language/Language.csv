@@ -1,0 +1,7 @@
+﻿Key,Type,Desc,Chinese,English,Japanese,null
+中文,Text,描述,中文,English,日本語,
+这里是,Text,描述,这里是,Here is,ここは,
+<shake>这里是</shake>,Text,描述,<shake>这里是</shake>,<shake>Here is</shake>,<shake>ここは</shake>,
+你好,Text,描述,你好,hello,こんにちは,
+室内好安静,Text,描述,室内好安静,So quiet,静11,
+字体Font,TextMeshPFont,字体,fonts/XiaolaiSC-Regular SDF,fonts/XiaolaiSC-Regular SDF,fonts/KurewaGothicCjkJp-Regular SDF,

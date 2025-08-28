@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a589f829aa983d4c8f5e3f6f986d19c, type: 3}
+  m_Name: "\u98DF\u72692"
+  m_EditorClassIdentifier: 
+  name: "\u7532\u866B\u98DF\u7269"
+  description: "\u7532\u866B\u98DF\u7269\uFF0C\u5E7C\u866B\u6700\u7231"
+  itemImage: {fileID: 21300000, guid: 361f2ee4a606ad0458ddc8c638a45c33, type: 3}
+  itemPrice: 100
+  itemAddress: "GameData/ItemData/\u98DF\u72692"
+  itemType: 2
+  boxAddress: 
+  boxData: {fileID: 0}
+  itemPrefab: {fileID: 483538491230918581, guid: fa3b286f32e986648a13d57ccadd0462, type: 3}
+  beetleAddress: 
+  beetleData: {fileID: 0}
+  foodAddress: GameData/FoodData/food2
+  foodPrefab: {fileID: 0}
+  fruitAddress: 

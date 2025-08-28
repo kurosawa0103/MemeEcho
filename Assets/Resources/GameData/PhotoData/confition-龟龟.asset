@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4931392ce3e4f24fb95893efcd58803, type: 3}
+  m_Name: "confition-\u9F9F\u9F9F"
+  m_EditorClassIdentifier: 
+  conditionID: 1001
+  priority: 0
+  requiredObjectsName:
+  - "\u9F9F\u9F9F"
+  description: "\u5DE8\u5927\u7684\u4E4C\u9F9F\u5C9B\u5C7F\uFF0C\u8F7D\u7740\u6211\u5728\u8FD9\u7247\u6D77\u6D0B\u4E0A\u822A\u884C\u3002"
