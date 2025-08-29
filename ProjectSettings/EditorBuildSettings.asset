@@ -21,14 +21,17 @@ EditorBuildSettings:
     path: "Assets/Scenes/Map-\u4E0A\u5C42.unity"
     guid: c032b6a5cb8df5b4c96050fda97a2463
   - enabled: 1
-    path: "Assets/Scenes/Room-\u7535\u68AF.unity"
-    guid: 130c2ac1a97d3f247a53872613a18c18
-  - enabled: 1
     path: "Assets/Scenes/Map-\u6D77\u8FB9\u7AD9\u53F0.unity"
     guid: 2d2b8d19f4612b74891db76a62d98518
   - enabled: 1
     path: "Assets/Scenes/Map-\u4E0B\u5C42\u7535\u68AF.unity"
     guid: c14a1fe335899524c9b2f1c0646691a0
+  - enabled: 1
+    path: "Assets/Scenes/Room-\u5F15\u5BFC.unity"
+    guid: 46d399f1c5d0f8f4f815dce738687e4f
+  - enabled: 1
+    path: "Assets/Scenes/Room-\u7535\u68AF.unity"
+    guid: 130c2ac1a97d3f247a53872613a18c18
   - enabled: 1
     path: "Assets/Scenes/Room-\u5B87\u5B99.unity"
     guid: 9e9ac56420482a4459e8f7877b4b488d
