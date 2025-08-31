@@ -4,10 +4,10 @@ using UnityEngine;
 public class MovementSystem : MonoBehaviour
 {
     public float moveSpeed = 5f;  // 移动速度
-
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Vector2 moveVelocity;
+    private bool movementEnabled = true; // 是否允许移动
 
     void Start()
     {
@@ -16,16 +16,30 @@ public class MovementSystem : MonoBehaviour
 
     void Update()
     {
-        // 获取输入：WASD 或方向键
+        if (!movementEnabled)
+        {
+            moveVelocity = Vector2.zero;
+            return;
+        }
+
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
-        moveInput = new Vector2(moveX, moveY).normalized;  // 保持对角线不会更快
+        moveInput = new Vector2(moveX, moveY).normalized;
         moveVelocity = moveInput * moveSpeed;
     }
 
     void FixedUpdate()
     {
-        rb.velocity = moveVelocity;  // 应用速度向量
+        rb.velocity = moveVelocity;
+    }
+
+    public void SetMovementEnabled(bool enabled)
+    {
+        movementEnabled = enabled;
+        if (!enabled)
+        {
+            rb.velocity = Vector2.zero; // 停止移动
+        }
     }
 }
