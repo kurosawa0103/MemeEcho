@@ -10,17 +10,20 @@ public class GameTimerWindow : EditorWindow
     private static bool isRunning;
     private static double elapsedSeconds;
 
-    // 暂停处理
     private static bool isPaused;
     private static DateTime pauseStartTime;
     private static double pausedTotalSeconds;
 
-    // 场景计时
     private static string currentSceneName;
     private static DateTime sceneEnterTime;
     private static Dictionary<string, double> sceneTimes = new Dictionary<string, double>();
 
-    private static DateTime pauseTime; // 暂停时刻
+    private static DateTime pauseTime;
+
+    // 自定义大字样式
+    private GUIStyle titleStyle;
+    private GUIStyle timerStyle;
+    private GUIStyle sceneStyle;
 
     [MenuItem("Tools/Game Timer")]
     public static void ShowWindow()
@@ -34,6 +37,25 @@ public class GameTimerWindow : EditorWindow
         EditorApplication.playModeStateChanged += OnPlayModeChanged;
         SceneManager.activeSceneChanged += OnSceneChanged;
         EditorApplication.pauseStateChanged += OnEditorPauseChanged;
+
+        // 初始化自定义样式
+        titleStyle = new GUIStyle()
+        {
+            fontSize = 24,
+            fontStyle = FontStyle.Bold,
+            normal = { textColor = Color.white }
+        };
+        timerStyle = new GUIStyle()
+        {
+            fontSize = 28,
+            fontStyle = FontStyle.Bold,
+            normal = { textColor = Color.yellow }
+        };
+        sceneStyle = new GUIStyle()
+        {
+            fontSize = 18,
+            normal = { textColor = Color.cyan }
+        };
     }
 
     private void OnDisable()
@@ -90,7 +112,7 @@ public class GameTimerWindow : EditorWindow
             else
                 sceneTimes[currentSceneName] = duration;
 
-            sceneEnterTime = DateTime.Now; // 重置当前场景计时
+            sceneEnterTime = DateTime.Now;
             Debug.Log($"[GameTimer] 场景 {currentSceneName} 本次耗时: {duration:F2} 秒，总计: {sceneTimes[currentSceneName]:F2} 秒");
         }
     }
@@ -106,7 +128,6 @@ public class GameTimerWindow : EditorWindow
         {
             if (isPaused)
             {
-                // 累计暂停时间
                 pausedTotalSeconds += (DateTime.Now - pauseStartTime).TotalSeconds;
                 isPaused = false;
             }
@@ -119,20 +140,17 @@ public class GameTimerWindow : EditorWindow
 
         if (EditorApplication.isPaused)
         {
-            // 暂停开始
             if (pauseTime == DateTime.MinValue)
                 pauseTime = DateTime.Now;
-
-            return; // 暂停期间不更新时间
+            return;
         }
         else
         {
-            // 恢复
             if (pauseTime != DateTime.MinValue)
             {
                 TimeSpan pausedDuration = DateTime.Now - pauseTime;
-                startTime = startTime.Add(pausedDuration);          // 调整游戏总计时
-                sceneEnterTime = sceneEnterTime.Add(pausedDuration); // 调整当前场景计时
+                startTime = startTime.Add(pausedDuration);
+                sceneEnterTime = sceneEnterTime.Add(pausedDuration);
                 pauseTime = DateTime.MinValue;
             }
         }
@@ -143,38 +161,48 @@ public class GameTimerWindow : EditorWindow
 
     private void OnGUI()
     {
-        GUILayout.Label("游戏运行计时器", EditorStyles.boldLabel);
+        GUILayout.Label("游戏运行计时器", titleStyle);
 
         if (isRunning)
         {
             TimeSpan time = TimeSpan.FromSeconds(elapsedSeconds);
-            GUILayout.Label($"运行时间: {time:hh\\:mm\\:ss}", EditorStyles.largeLabel);
+            GUILayout.Label($"运行时间: {time:hh\\:mm\\:ss}", timerStyle);
 
             if (isPaused)
             {
-                GUILayout.Label(" 已暂停", EditorStyles.miniBoldLabel);
+                GUILayout.Label(" 已暂停", sceneStyle);
             }
 
             GUILayout.Space(10);
-            GUILayout.Label("场景耗时统计：", EditorStyles.boldLabel);
+            GUILayout.Label("场景耗时统计（从高到低）：", titleStyle);
 
-            foreach (var kvp in sceneTimes)
+            // 按耗时从高到低排序显示
+            foreach (var kvp in SortedSceneTimes())
             {
                 TimeSpan t = TimeSpan.FromSeconds(kvp.Value);
-                GUILayout.Label($"- {kvp.Key}: {t:hh\\:mm\\:ss}");
+                GUILayout.Label($"- {kvp.Key}: {t:hh\\:mm\\:ss}", sceneStyle);
             }
 
+            // 当前场景单独显示（含本次进入的时间）
             if (!string.IsNullOrEmpty(currentSceneName))
             {
                 double currentSceneElapsed = (DateTime.Now - sceneEnterTime).TotalSeconds;
                 double total = currentSceneElapsed + (sceneTimes.ContainsKey(currentSceneName) ? sceneTimes[currentSceneName] : 0);
                 TimeSpan t = TimeSpan.FromSeconds(total);
-                GUILayout.Label($"* 当前场景 {currentSceneName}: {t:hh\\:mm\\:ss}", EditorStyles.helpBox);
+                GUILayout.Label($"* 当前场景 {currentSceneName}: {t:hh\\:mm\\:ss}", sceneStyle);
             }
         }
         else
         {
-            GUILayout.Label("未在运行", EditorStyles.label);
+            GUILayout.Label("未在运行", timerStyle);
         }
+    }
+
+    // 返回按耗时从高到低排序的场景列表
+    private IEnumerable<KeyValuePair<string, double>> SortedSceneTimes()
+    {
+        var sorted = new List<KeyValuePair<string, double>>(sceneTimes);
+        sorted.Sort((a, b) => b.Value.CompareTo(a.Value)); // 按值从高到低
+        return sorted;
     }
 }
