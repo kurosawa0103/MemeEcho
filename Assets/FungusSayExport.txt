@@ -1,95 +1,109 @@
 ﻿=== Block: 节点1 ===
-Narrator: 房间内的风景完全不一样
-Narrator: 一片绿色的原野，仿佛在童话的世界里
-Narrator: 绿色的山丘上映衬着淡蓝色的天空
-Narrator: 原野上飘荡着美妙的旋律
-Narrator: 远处的平原上有一些兔子坐在地上
-Narrator: 它们正聆听着平原上的旋律
-Narrator: 只见不远处有一只背着斜挎包兔子
-Narrator: 它走了过来，并主动向你搭话
-character-兔子luby: 你也是来寻找“宝物”的吗？
-character-兔子luby: 但是...
-Narrator: 斜挎包兔子打量着你
-character-兔子luby: 看你的长相，你不是luby啊
-Narrator: 你向前和它搭话
+Narrator: 一座孤立在海岸线上的老旧电车站台
+Narrator: 铁轨延伸进波光粼粼的海面，远方是无尽的蓝色
+Narrator: 潮水时涨时落，带来咸湿的海风和轻柔的浪声
+Narrator: 站台的铁轨上上有一辆破旧的电车
+Narrator: 车身斑驳锈蚀，车窗映出日落的余晖
+Narrator: 站牌上的时刻表已经模糊不清，却隐约显示着“归途”的字样
+Narrator: 此刻，你选择
 
 === Block: 切换场景 ===
 
 === Block: 节点2-1 ===
-character-兔子luby: 这里是风车花平原，因为平原上开满了风车花
-character-兔子luby: 虽然这里过去被称为微风平原
-character-兔子luby: 直到风车花开满了这里
-character-兔子luby: 感觉还是风车花平原更好听
+Narrator: 你坐在站台的木椅上
+Narrator: 远离了都市的喧嚣，这是一份久违的静谧
+Narrator: 此刻你与这座废弃的站台融为了一体
 
 === Block: 节点2-2 ===
-character-兔子luby: 我们Luby曾经拥有着被称为“宝物”的东西
-character-兔子luby: 但是现在“宝物”消失了
-character-兔子luby: 于是luby们前往世界各处寻找消失的宝物
-character-兔子luby: 我也在寻找我的宝物
-character-兔子luby: 但是和别的luby不一样，我还有一件事非做不可
-character-兔子luby: 我得去寻找shio，因为shio...
-character-兔子luby: 是我的朋友
+Narrator: 你沿着铁轨走向大海
+Narrator: 迎面吹来的海风拂过发梢
+Narrator: 远处，海面像一面镜子，映照着天空渐深的蓝
+Narrator: 你停下脚步，望向那遥远的海域
 
-=== Block: 节点3 ===
-Narrator: 兔子停顿了一下，望着远方的山丘
-character-兔子luby: 风车花平原的旋律也已经找回来了
-character-兔子luby: 接下来要去流星沙漠了，那里也许会有shio的消息
-Narrator: 兔子说完在背包里翻找着
-character-兔子luby: 走之前送给你一个东西
-character-兔子luby: 和平原上橙色和黄色的风车花不同，这是一朵蓝色风车花
-character-兔子luby: 黄色风车花的花语是回忆，蓝色风车花的花语则是思念哦
-character-兔子luby: 你也在寻找你自己的“宝物”吧，既然能在这里相遇
-character-兔子luby: 说不定也是十足的缘分
-Narrator: 兔子提了一下背包肩带，转身走向了原野的另一边
-Narrator: 开满风车花的原野上，旋律继续飘荡
-Narrator: 奏响着平原上的故事
-Narrator: 那是shio过去的回忆吗
-Narrator: 也许你会遇到各种各样的碎片和体验
-Narrator: 所以你也要出发了，去寻找你的“宝物”
+=== Block: 节点-银河列车 ===
+Narrator: 你从口袋中取出那张泛黄的车票
+Narrator: 车票在夕阳下泛着温柔的金光
+Narrator: 站台上“归途”的字样在微光中轻轻闪动
+Narrator: 海风忽然安静下来
+
+=== Block: 节点2-2-1 ===
+Narrator: 蓝色的大海延展至天边，就在波光粼粼的海面深处，忽然浮现出一只巨龟
+Narrator: 它缓缓地从远方游过来，像一座移动的岛屿
+
+=== Block: 节点2-2-2 ===
+Narrator: 巨龟越来越近，巨龟的背上有一棵大树，大树下有一个人影
+
+=== Block: 节点2-2-3 ===
+Narrator: 巨龟背上的人影是一位少女
+
+=== Block: 登上巨大乌龟 ===
+Narrator: 你登上了巨龟
 
 === Block: BGM ===
 
-=== Block: 加载 ===
-
-=== Block: 节点2-3 ===
-character-兔子luby: 这个背包是另一只luby给我的
-character-兔子luby: 它住在地下
-character-兔子luby: 过去它带着这个背包前往各地寻找“宝物”
-character-兔子luby: 但是它在寻找“宝物”的途中失败了，它回到了地下
-character-兔子luby: 它把背包托付给了我
-character-兔子luby: 我会带着背包和它的梦想，去寻找到“宝物”
-
-=== Block: 节点4 ===
-Narrator: 原野的天空已经被夕阳染色
-Narrator: 一只兔子坐在山坡上，但是不是先前的那只
-Narrator: 它望着天边的夕阳
-Narrator: 静静地聆听平原上的旋律
-
 === Block: 离开 ===
-Narrator: 你带着蓝色的风车花，离开了原野
+Narrator: 你起身离开了站台
 
-=== Block: 离开2 ===
-Narrator: 你离开了原野
+=== Block: 节点2-- ===
+Narrator: 时间在此刻缓缓流淌
+Narrator: 仿佛所有的纷扰都被隔绝在外
+Narrator: 只有远方那模糊的“归途”
+Narrator: 像一道隐秘的光芒，在心底轻轻闪烁
 
-=== Block: 节点5坐下 ===
-Narrator: 你坐在兔子的边上，你们没有对话
-Narrator: 你望着山丘的另一边
-Narrator: 旅行的兔子前往了远方，它抵达流星沙漠了嘛
-Narrator: 夕阳逐渐被夜色笼罩
+=== Block: 节点-银河列车2 ===
+Narrator: 你走向车门
+Narrator: 踏入那被星光照亮的车厢
+Narrator: 木质座椅依旧，吊环轻轻摇晃
+Narrator: 列车轻微颤动，伴着低沉的钟声
+Narrator: 缓缓驶出海岸，驶向夜空的无垠
+Narrator: 这是一片梦幻的空间
+Narrator: 漂浮的街灯在星海中缓慢旋转，光晕如昔日记忆般温柔闪烁
+Narrator: 光流在车窗外流淌，凝结成岛屿楼阁，仿佛陌生而熟悉的场景
+Narrator: 当你正沉浸于这梦幻的旅途时
+Narrator: 一只猫咪向着你走来
+Character-奇怪的猫: 旅人，你不属于这里
+Narrator: 你遇到了一只会说话的猫
 
-=== Block: 节点6坐下 ===
-Narrator: 那只和你一起看夕阳的兔子已经离开了
-Narrator: 你依旧坐在那里
-Narrator: 夜晚的原野的天边，偶尔可以眺望到闪过的流星
-Narrator: 流星的方向，是那只带着背包的兔子正在祈愿吗
+=== Block: 节点-银河列车1 ===
+Narrator: 铁轨上传来低沉而悠远的震动
+Narrator: 锈蚀的金属被细碎的光屑覆盖
+Narrator: 如同被星河洗净，露出幽蓝的轨道
+Narrator: 破旧的电车缓缓亮起了灯
+Narrator: 车窗映出的不再是日落的余晖
+Narrator: 而是一片流动的星海
+Narrator: 铁轨不再通向海面
+Narrator: 而是延伸进无垠的夜空
 
-=== Block: 初始隐藏兔子 ===
+=== Block: 节点-银河列车3 ===
+Character-奇怪的猫: 你手里的车票，是归途的碎片
+Character-奇怪的猫: 未来从未固定，它藏在每一颗漂浮的光点里
+Character-奇怪的猫: 拾起散落的片段，重组你的旅程
+Character-奇怪的猫: 随后你会再次出发
+Narrator: 猫咪说完后缓缓走开
+Narrator: 刹那间，星海褪去。
+Narrator: 梦幻如泡沫一样消散
+Narrator: 追寻绚丽的银河列车如同幻梦一样消失在铁道的尽头
+Narrator: 车厢重新被海浪的夕阳包裹，窗外不再是梦幻的星河
+Narrator: 而是那熟悉的废弃站台
+Narrator: 潮水轻拍铁轨
+Narrator: 你握在手心的车票，泛黄如初，却不再发光
+Narrator: 现实与梦境在这一刻交错
+Narrator: 站台上的”归途“已经悄悄地变成了“未来”
 
-=== Block: 节点2-4 ===
-character-兔子luby: shio是我的朋友哦
-character-兔子luby: 我还记得，在微风山丘上，shio唱的歌
-character-兔子luby: 这里的旋律就是shio当时的歌
-character-兔子luby: 但是其他的luby似乎都记不得shio了
-character-兔子luby: shio曾经和我们生活在一起
-character-兔子luby: 只是有一天，它突然离开了
+=== Block: 节点-银河列车4 ===
+Narrator: 你回味着刚才的所见所闻
+Narrator: 你知道，未来掌握在自己的手中
+Narrator: 短暂的歇息后，你会重新出发
+
+=== Block: 节点-结尾 ===
+Narrator: 安静的站台一往如初
+Narrator: 但是你心中早已充满了决心
+
+=== Block: 离开结尾 ===
+Narrator: 你离开了站台
+Narrator: 手中出现了一个未来魔方
+Narrator: 海浪拍打远处的轨道
+Narrator: 这使你充满了决心
+
+=== Block: 加载 ===
 

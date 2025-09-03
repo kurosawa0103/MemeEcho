@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4fc61f651978dc41a3620eeb921efce, type: 3}
+  m_Name: letter
+  m_EditorClassIdentifier: 
+  itemName: "\u5F52\u9014\u7684\u4FE1\u4EF6"
+  itemImage: {fileID: 5432800713293428783, guid: 70461e885a039514ba88d7ab7362fed1, type: 3}
+  itemPrefab: {fileID: 4945680450623717682, guid: 055fe1d2f342045419943e682b3bf63a, type: 3}
+  itemAddress: GameData/ItemData/letter
+  itemDesc: "\u84DD\u8272\u98CE\u8F66\u82B1\u7684\u82B1\u8BED\u662F\u601D\u5FF5\u3002\u5B83\u628A\u5BF9\u8FDC\u65B9\u7684\u7275\u6302\u85CF\u5728\u82B1\u74E3\u91CC\uFF0C\u9759\u9759\u5B88\u5019\u3002"

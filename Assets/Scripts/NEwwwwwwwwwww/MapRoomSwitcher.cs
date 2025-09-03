@@ -17,7 +17,7 @@ public class MapRoomSwitcher : MonoBehaviour
             if (panelMap != null) panelMap.SetActive(true);
             if (panelRoom != null) panelRoom.SetActive(false);
         }
-        else if (sceneName.StartsWith("Room-"))
+        else if (sceneName.StartsWith("Room-") || sceneName.StartsWith("SmallRoom-"))
         {
             if (panelMap != null) panelMap.SetActive(false);
             if (panelRoom != null) panelRoom.SetActive(true);
