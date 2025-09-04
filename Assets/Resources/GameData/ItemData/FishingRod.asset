@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4fc61f651978dc41a3620eeb921efce, type: 3}
   m_Name: FishingRod
   m_EditorClassIdentifier: 
-  itemName: "\u9493\u9C7C\u7AFF"
+  itemName: "\u65E7\u9493\u7AFF"
   itemImage: {fileID: 5432800713293428783, guid: 70461e885a039514ba88d7ab7362fed1, type: 3}
   itemPrefab: {fileID: 4945680450623717682, guid: 055fe1d2f342045419943e682b3bf63a, type: 3}
   itemAddress: GameData/ItemData/letter
-  itemDesc: "\u84DD\u8272\u98CE\u8F66\u82B1\u7684\u82B1\u8BED\u662F\u601D\u5FF5\u3002\u5B83\u628A\u5BF9\u8FDC\u65B9\u7684\u7275\u6302\u85CF\u5728\u82B1\u74E3\u91CC\uFF0C\u9759\u9759\u5B88\u5019\u3002"
+  itemDesc: "\u4E00\u6839\u7834\u65E7\u7684\u9493\u7AFF\u3002\u7528\u5B83\u5728\u6C34\u57DF\u9493\u9C7C\uFF0C\u53EF\u80FD\u4F1A\u9493\u5230\u4E00\u4E9BXXX\u3002"
