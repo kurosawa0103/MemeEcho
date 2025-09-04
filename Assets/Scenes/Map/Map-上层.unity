@@ -122,17 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &95081299 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3610699375010324521, guid: 9d8dd549923d33b4c8609c287b2c6db9, type: 3}
-  m_PrefabInstance: {fileID: 6941350611527193855}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &208678817 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7244357306365350216, guid: 9d8dd549923d33b4c8609c287b2c6db9, type: 3}
@@ -650,7 +639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 95081299}
+  selectedFlowchart: {fileID: 2028358722}
 --- !u!4 &940085551
 Transform:
   m_ObjectHideFlags: 1
@@ -3027,6 +3016,7 @@ GameObject:
   - component: {fileID: 2028358733}
   - component: {fileID: 2028358732}
   - component: {fileID: 2028358731}
+  - component: {fileID: 2028358737}
   m_Layer: 0
   m_Name: "\u4E8B\u4EF6"
   m_TagString: Untagged
@@ -3098,9 +3088,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 160
-    y: 93
-    width: 97.36841
+    x: 161
+    y: 92
+    width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3109,6 +3099,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 2028358720}
   commandList:
+  - {fileID: 2028358737}
   - {fileID: 2028358719}
   - {fileID: 2028358718}
   - {fileID: 2028358727}
@@ -3126,11 +3117,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -314.72717, y: 66.31771}
+  scrollPos: {x: 293.74094, y: 64.2814}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.7600002
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -3138,9 +3129,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 2028358736}
+  - {fileID: 2028358721}
   selectedCommands:
-  - {fileID: 2028358733}
+  - {fileID: 2028358737}
   variables:
   - {fileID: 2028358731}
   description: 
@@ -3219,12 +3210,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 159.60794
     y: 183.43777
-    width: 109.21051
+    width: 74
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 4
-  blockName: New Block
+  blockName: "\u9ED1\u5C4F"
   description: 
   eventHandler: {fileID: 2028358724}
   commandList:
@@ -3298,12 +3289,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 164.02293
     y: 24.65918
-    width: 117.10524
+    width: 78
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 158
-  blockName: BGM (Copy)
+  blockName: BGM
   description: 
   eventHandler: {fileID: 2028358728}
   commandList:
@@ -3635,7 +3626,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.4715
     y: 141.31378
-    width: 109.21051
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3648,6 +3639,21 @@ MonoBehaviour:
   - {fileID: 2028358734}
   - {fileID: 2028358733}
   suppressAllAutoSelections: 0
+--- !u!114 &2028358737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028358717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4187a251d957b1a4a91cd02ba200fcb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 163
+  indentLevel: 0
+  canMove: 0
 --- !u!1001 &6941350611527193855
 PrefabInstance:
   m_ObjectHideFlags: 0

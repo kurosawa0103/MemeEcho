@@ -2413,6 +2413,7 @@ GameObject:
   - component: {fileID: 2028358737}
   - component: {fileID: 2028358736}
   - component: {fileID: 2028358741}
+  - component: {fileID: 2028358742}
   m_Layer: 0
   m_Name: "\u4E8B\u4EF6"
   m_TagString: Untagged
@@ -2495,6 +2496,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 2028358720}
   commandList:
+  - {fileID: 2028358742}
   - {fileID: 2028358719}
   - {fileID: 2028358718}
   suppressAllAutoSelections: 0
@@ -2523,9 +2525,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 2028358740}
+  - {fileID: 2028358721}
   selectedCommands:
-  - {fileID: 2028358739}
+  - {fileID: 2028358742}
   variables:
   - {fileID: 2028358735}
   - {fileID: 2028358741}
@@ -3354,6 +3356,21 @@ MonoBehaviour:
   scope: 0
   key: "\u5F52\u9014\u7684\u4FE1"
   value: 0
+--- !u!114 &2028358742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028358717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4187a251d957b1a4a91cd02ba200fcb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 168
+  indentLevel: 0
+  canMove: 0
 --- !u!1 &2095591096 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7244357306365350216, guid: 9d8dd549923d33b4c8609c287b2c6db9, type: 3}

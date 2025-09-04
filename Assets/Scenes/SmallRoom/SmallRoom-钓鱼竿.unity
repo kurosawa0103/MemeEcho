@@ -582,12 +582,10 @@ GameObject:
   - component: {fileID: 928415013}
   - component: {fileID: 928415015}
   - component: {fileID: 928415014}
-  - component: {fileID: 928415016}
   - component: {fileID: 928415018}
   - component: {fileID: 928415017}
   - component: {fileID: 928415019}
   - component: {fileID: 928415021}
-  - component: {fileID: 928415020}
   m_Layer: 0
   m_Name: "\u4E8B\u4EF6"
   m_TagString: Untagged
@@ -623,11 +621,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -50.8855, y: 192.97392}
+  scrollPos: {x: 379.00327, y: 16.932562}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.9700001
+  zoom: 0.97
   scrollViewRect:
     serializedVersion: 2
     x: 0
@@ -635,9 +633,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 928414914}
+  - {fileID: 928415009}
   selectedCommands:
-  - {fileID: 928414913}
+  - {fileID: 928415017}
   variables:
   - {fileID: 928414900}
   description: 
@@ -769,7 +767,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -166.31207
     y: 186.36055
-    width: 99.48453
+    width: 99.484535
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1248,7 +1246,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 212.51302
     y: 331.82727
-    width: 81.958755
+    width: 81.95876
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1484,9 +1482,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 928415015}
-  - {fileID: 928415020}
   - {fileID: 928415014}
-  - {fileID: 928415016}
   - {fileID: 928415019}
   - {fileID: 928415021}
   - {fileID: 928415008}
@@ -1614,7 +1610,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 202
   indentLevel: 0
-  item: {fileID: 11400000, guid: a5fa608ee2c6539409450275529ac29a, type: 2}
+  item: {fileID: 11400000, guid: 48506c2ca0e48884fb337e5e5d0705ac, type: 2}
   removeInstead: 0
   newPosition: {x: 0, y: 0, z: 0}
 --- !u!114 &928415015
@@ -1631,29 +1627,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 201
   indentLevel: 0
-  message: "\u83B7\u5F97\uFF1A\u5F52\u9014\u7684\u4FE1\u4EF6"
+  message: "\u83B7\u5F97\uFF1A\u9493\u9C7C\u7AFF"
   popupPanel: {fileID: 6941350611527193858}
   popupText: {fileID: 6941350611527193857}
   punchDuration: 0.5
   displayTime: 2
   punchStrength: 1.1
   waitForComplete: 1
---- !u!114 &928415016
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 928414807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf4b645234e5a3d4d9600c782ac0f048, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 203
-  indentLevel: 0
-  eventName: "\u6D77\u8FB9\u7AD9\u53F0\u89E3\u9501"
-  eventStatus: 1
 --- !u!114 &928415017
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1670,7 +1650,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: "Map-\u4E0B\u5C42\u7535\u68AF"
+    stringVal: "Map-\u6D77\u8FB9\u7AD9\u53F0"
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &928415018
@@ -1707,29 +1687,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 214
   indentLevel: 0
-  eventName: "\u5F52\u9014\u7684\u4FE1"
+  eventName: "\u9493\u9C7C\u7AFF"
   eventStatus: 1
---- !u!114 &928415020
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 928414807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89e7903f30a98294db042be639d6e08b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 216
-  indentLevel: 0
-  message: "\u89E3\u9501\uFF1A\u6D77\u8FB9\u7AD9\u53F0"
-  popupPanel: {fileID: 6941350611527193858}
-  popupText: {fileID: 6941350611527193857}
-  punchDuration: 0.5
-  displayTime: 3.5
-  punchStrength: 1.1
-  waitForComplete: 0
 --- !u!114 &928415021
 MonoBehaviour:
   m_ObjectHideFlags: 2

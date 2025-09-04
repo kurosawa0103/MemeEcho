@@ -87,6 +87,9 @@ EditorBuildSettings:
     path: "Assets/Scenes/Room/Room-\u98CE\u8F66\u5E73\u539F.unity"
     guid: 49ce431d61aaf8242a3750fa380897c6
   - enabled: 1
+    path: "Assets/Scenes/SmallRoom/SmallRoom-\u9493\u9C7C\u7AFF.unity"
+    guid: 3b55ebc2716feb94a85d69891020e12c
+  - enabled: 1
     path: "Assets/Scenes/SmallRoom/SmallRoom-\u5F52\u9014\u7684\u4FE1.unity"
     guid: 08c0a0f8496977d41a87ce55f6a2a0fd
   m_configObjects: {}

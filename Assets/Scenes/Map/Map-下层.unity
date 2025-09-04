@@ -3397,6 +3397,7 @@ GameObject:
   - component: {fileID: 2028358760}
   - component: {fileID: 2028358759}
   - component: {fileID: 2028358758}
+  - component: {fileID: 2028358761}
   m_Layer: 0
   m_Name: "\u4E8B\u4EF6"
   m_TagString: Untagged
@@ -3479,6 +3480,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 2028358720}
   commandList:
+  - {fileID: 2028358761}
   - {fileID: 2028358719}
   - {fileID: 2028358718}
   suppressAllAutoSelections: 0
@@ -3507,9 +3509,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 2028358747}
+  - {fileID: 2028358721}
   selectedCommands:
-  - {fileID: 2028358746}
+  - {fileID: 2028358761}
   variables:
   - {fileID: 2028358728}
   - {fileID: 2028358727}
@@ -4988,6 +4990,21 @@ MonoBehaviour:
   commandList:
   - {fileID: 2028358759}
   suppressAllAutoSelections: 0
+--- !u!114 &2028358761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028358717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4187a251d957b1a4a91cd02ba200fcb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 159
+  indentLevel: 0
+  canMove: 0
 --- !u!1001 &6941350611527193855
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -439,17 +439,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &249112372 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3610699375010324521, guid: 9d8dd549923d33b4c8609c287b2c6db9, type: 3}
-  m_PrefabInstance: {fileID: 6941350611527193855}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &443835592
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,7 +757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 249112372}
+  selectedFlowchart: {fileID: 2028358722}
 --- !u!4 &940085551
 Transform:
   m_ObjectHideFlags: 1
@@ -2282,6 +2271,7 @@ GameObject:
   - component: {fileID: 2028358760}
   - component: {fileID: 2028358759}
   - component: {fileID: 2028358758}
+  - component: {fileID: 2028358761}
   m_Layer: 0
   m_Name: "\u4E8B\u4EF6"
   m_TagString: Untagged
@@ -2364,6 +2354,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 2028358720}
   commandList:
+  - {fileID: 2028358761}
   - {fileID: 2028358719}
   - {fileID: 2028358718}
   suppressAllAutoSelections: 0
@@ -2394,7 +2385,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2028358721}
   selectedCommands:
-  - {fileID: 2028358718}
+  - {fileID: 2028358761}
   variables:
   - {fileID: 2028358728}
   - {fileID: 2028358727}
@@ -3903,6 +3894,21 @@ MonoBehaviour:
   commandList:
   - {fileID: 2028358759}
   suppressAllAutoSelections: 0
+--- !u!114 &2028358761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028358717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4187a251d957b1a4a91cd02ba200fcb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 159
+  indentLevel: 0
+  canMove: 0
 --- !u!1001 &6941350611527193855
 PrefabInstance:
   m_ObjectHideFlags: 0
