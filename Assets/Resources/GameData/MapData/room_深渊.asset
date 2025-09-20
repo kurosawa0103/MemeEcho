@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d09678e21d96af43bd7596ba29ce4d1, type: 3}
-  m_Name: "map_\u9ED8\u8BA4\u6DF1\u6E0A"
+  m_Name: "room_\u6DF1\u6E0A"
   m_EditorClassIdentifier: 
   mapName: "\u6DF1\u6E0A"
-  mapDescription: "\u4F60\u4F9D\u7A00\u8BB0\u5F97\r\n\u5341\u51E0\u5E74\u524D\u7684\u90A3\u4E2A\r\n\r\n\u590F\u65E5\u7684\u5348\u540E\r\n\u90A3\u4E2A\u623F\u95F4\u7684\u6C14\u606F\r\n\r\n\u4F60\u77E5\u9053\r\n\u8FD9\u662F\u5C5E\u4E8E\u4F60\u7684\u5723\u5730"
-  buttonText: 
-  sceneName: 
-  memeMapName: 
+  mapDescription: "\u5F15\u5BFC\u7684\u623F\u95F4\u63CF\u8FF0"
+  buttonText: "\u63A5\u89E6"
+  sceneName: "Room-\u6765\u81EA\u6DF1\u6E0A"
+  memeMapName: "\u8FF7\u56E0\u951A\u70B9\uFF1A\u6DF1\u6E0A"
