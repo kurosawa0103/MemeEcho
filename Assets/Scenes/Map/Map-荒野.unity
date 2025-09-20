@@ -467,7 +467,7 @@ Transform:
   m_GameObject: {fileID: 232446714}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.256, y: -0.074, z: 0}
+  m_LocalPosition: {x: 0.266, y: -0.074, z: 0}
   m_LocalScale: {x: 0.46273476, y: 0.3829356, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -530,7 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0586cdbcf8aab4a98c5b48735309ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newMapInfo: {fileID: 11400000, guid: dbae226dfaebf694c99b1b16260137f2, type: 2}
+  newMapInfo: {fileID: 11400000, guid: 582ae2da7060e864d88012fd5f6bbaed, type: 2}
   mapUIManager: {fileID: 1792026070}
 --- !u!212 &232446718
 SpriteRenderer:
@@ -1330,7 +1330,7 @@ Transform:
   m_GameObject: {fileID: 805155074}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.32, y: -0.26, z: 0}
+  m_LocalPosition: {x: 0.32, y: -0.249, z: 0}
   m_LocalScale: {x: 0.2, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1509,7 +1509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0586cdbcf8aab4a98c5b48735309ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newMapInfo: {fileID: 11400000, guid: 962815366449d3a41890ec86bca3070c, type: 2}
+  newMapInfo: {fileID: 11400000, guid: 99059035979da394a9de0451aef80908, type: 2}
   mapUIManager: {fileID: 1792026070}
 --- !u!61 &946953018
 BoxCollider2D:
@@ -2085,7 +2085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0586cdbcf8aab4a98c5b48735309ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newMapInfo: {fileID: 11400000, guid: 962815366449d3a41890ec86bca3070c, type: 2}
+  newMapInfo: {fileID: 11400000, guid: 1e2529d5887ba5e4ab4db1fdaed81888, type: 2}
   mapUIManager: {fileID: 1792026070}
 --- !u!1 &1297566560
 GameObject:
@@ -2114,7 +2114,7 @@ Transform:
   m_GameObject: {fileID: 1297566560}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.26, z: 0}
+  m_LocalPosition: {x: 0, y: -0.237, z: 0}
   m_LocalScale: {x: 0.2, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2318,7 +2318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1322926497
 Transform:
   m_ObjectHideFlags: 0
@@ -2792,7 +2792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0586cdbcf8aab4a98c5b48735309ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newMapInfo: {fileID: 11400000, guid: 7568b90a4064bd44f8b9c3474b92969c, type: 2}
+  newMapInfo: {fileID: 11400000, guid: abd4f8c7144afd94d98a7e50bcbb9823, type: 2}
   mapUIManager: {fileID: 1792026070}
 --- !u!212 &1440374798
 SpriteRenderer:
@@ -3243,7 +3243,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596745492}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -3282,10 +3282,18 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -0.5, y: 0.5}
       - {x: -0.5, y: -0.5}
-      - {x: -0.23836614, y: -0.5000001}
-      - {x: -0.23112479, y: -0.09353632}
-      - {x: 0.24678758, y: -0.08664706}
-      - {x: 0.23954651, y: -0.50000024}
+      - {x: -0.42757106, y: -0.4863218}
+      - {x: -0.43028793, y: 0.015890978}
+      - {x: -0.20907769, y: 0.012583144}
+      - {x: -0.21234773, y: -0.50713617}
+      - {x: -0.108825706, y: -0.4839763}
+      - {x: -0.10761993, y: 0.006898612}
+      - {x: 0.10636064, y: -0.0013047494}
+      - {x: 0.10866125, y: -0.50612104}
+      - {x: 0.21710506, y: -0.49166074}
+      - {x: 0.2136166, y: 0.015048683}
+      - {x: 0.42176664, y: -0.013695531}
+      - {x: 0.42163855, y: -0.5045597}
       - {x: 0.5, y: -0.5}
       - {x: 0.5, y: 0.5}
   m_UseDelaunayMesh: 0
@@ -3580,7 +3588,7 @@ MonoBehaviour:
   buttonParent: {fileID: 6941350611527193858}
   buttonText: {fileID: 6941350611527193857}
   button: {fileID: 6941350611527193856}
-  defaultMapInfo: {fileID: 11400000, guid: cb008420646346546a377d448895a6c7, type: 2}
+  defaultMapInfo: {fileID: 11400000, guid: f15ca572544fcb34b9c14eb7a9c67dc8, type: 2}
   currentMapInfo: {fileID: 0}
   typewriterSpeed: 0.05
 --- !u!4 &1792026071
